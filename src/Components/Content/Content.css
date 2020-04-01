@@ -1,0 +1,60 @@
+.profile h3{
+    margin: 0;
+}
+.profile{
+    height: 440px;
+    width: 300px;
+    float: left;
+    margin: 20px;
+    
+    background-color: rgb(238, 240, 235);
+    border: 2px solid #ab1d1d;
+    margin-bottom: 0;
+    border-radius: 5px;
+
+
+
+}
+.profile .image{
+    height: 240px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #ab1d1d;
+    float: left;
+}
+.profile .image img{
+    height:240px;
+    width: 300px;
+}
+.profile .data{
+    margin: 0;
+    padding: 0 0 5px 4px;
+    height: 200px;
+    width: 300px;
+    overflow: hidden;
+    
+}
+.addBtn{
+    height: 31px;
+    width: 190px;
+    background-color: #ab1d1d;
+    border: 1px solid goldenrod;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+
+}
+.addBtn:focus{
+    outline: none;
+}
+.addBtn:hover{
+    background-color: rgb(102, 7, 7);
+    font-size: 15px;
+
+}
+.addBtn:active{
+    font-size: 14px;
+}
